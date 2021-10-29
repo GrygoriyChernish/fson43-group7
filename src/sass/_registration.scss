@@ -1,0 +1,122 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.registration-container {
+    margin-right: 0;
+    margin-left: 70px;
+    width: 1215px;
+    height: 615px;
+    background-image: url(../images/donut4.svg), url(../images/kiss-party.svg);
+    background-size: 350px, 600px;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    background-color: #FEF3E4;
+}
+
+.registration-title {
+    margin-bottom: 10px;
+    font-family: "Caveat Brush", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 1.81;
+    text-align: center;
+    color: #2E2520;
+    }
+
+.registration-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 230px;
+    padding: 30px 0;
+    width: 820px;
+    height: 260px;
+    background: #FFFFF9;
+    box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15),
+    4px 4px 4px rgba(171, 129, 108, 0.15);
+    border-radius: 150px;
+    }
+
+    .registration-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    .registration-articles {
+        align-items: baseline;
+        padding: 30px;
+        width: 200px;
+        height: 200px;
+        border-right: 1px solid rgba(171, 129, 108, 0.5);
+    }
+
+    .registration-text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: right;
+        color: #2E2520;
+    }
+
+    .registration-form {    
+        align-items: baseline;
+        padding: 30px;
+        width: 290px;
+        height: 150px;
+    }
+
+    .registration-form-title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 1.22;
+        color: #2E2520;
+    }
+
+    .registration-links {
+        display: block;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.25;
+        text-align: justify;
+        border-bottom: 1px solid #AB816C;
+        color: rgba(171, 129, 108, 0.5);
+    }
+
+    .registration-links:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+    .registration-button {
+        padding: 10px 45px;
+        min-width: 160px;
+        font-family: Caveat Brush;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        color: #FFFFFF;
+        background: #AB816C;
+        border-radius: 25px;
+    }
+
+    .registration-button:hover,
+    .registration-button:focus {
+        background: #674D40;
+    }
