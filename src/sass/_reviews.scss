@@ -1,0 +1,70 @@
+.reviews{
+    background-image: url(../images/reviews/Vector13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.section-title{
+    font-family: Caveat Brush;
+    font-size: 36px;
+    line-height: 1.8; 
+    text-align: center; 
+    margin-bottom: 5px;  
+}
+.review-list{
+    display: flex;
+    justify-content: center;
+}
+.review-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.review-item:last-child{
+    margin-right: 0;
+}
+.review-item:nth-child(2){
+    margin-top: 19px;
+}
+.review-stars{
+    width: 136px;
+    height: 24px; 
+    margin-top: 6px;
+}
+.review-name{
+    font-style: italic;
+    font-weight: 500;
+    font-style: 16px;
+    line-height: 4;
+}
+.review-text{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.22;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 1.25;
+    color: 
+    rgba(171, 129, 108, 1); 
+}
+.pagination::before,
+.pagination:after{
+    content: "";
+    width: 35px;
+    height: 1px;
+    background-color:rgba(171, 129, 108, 1); 
+}
+.pagination::before{
+    margin-right: 5px;
+}
+.pagination:after{
+    margin-left: 5px;
+}
