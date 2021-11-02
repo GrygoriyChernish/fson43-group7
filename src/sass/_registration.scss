@@ -1,30 +1,19 @@
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
 
-a {
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-}
-
-.registration-container {
-    margin-right: 0;
-    margin-left: 70px;
-    width: 1215px;
-    height: 615px;
-    background-image: url(../images/registration/donut4.svg), url(../images/registration/kiss-party.svg);
-    background-size: 350px, 600px;
-    background-position: top left, bottom right;
+.registration-section {
+    background-image: url(../images/registration/donut.png),
+    url(../images/registration/kiss-party.png);
+    background-size: 350px,
+    600px;
+    background-position: 10% 50%, 98% -55%;
     background-repeat: no-repeat;
     background-color: #FEF3E4;
+    padding-top: 70px;
+    padding-left: 70px;
 }
 
 .registration-title {
     margin-bottom: 10px;
-    font-family: "Caveat Brush", cursive;
+    font-family: var(--secondary-font);
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -37,32 +26,23 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 230px;
     padding: 30px 0;
-    width: 820px;
-    height: 260px;
     background: #FFFFF9;
     box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15),
     4px 4px 4px rgba(171, 129, 108, 0.15);
     border-radius: 150px;
     }
 
-    .registration-list {
-        display: flex;
-        justify-content: center;
-    }
-
     .registration-articles {
-        align-items: baseline;
         padding: 30px;
+        margin-right: 30px;
         width: 200px;
         height: 200px;
         border-right: 1px solid rgba(171, 129, 108, 0.5);
     }
 
     .registration-text {
-        font-family: Montserrat;
-        font-style: normal;
+        margin-bottom: 35px;
         font-weight: 500;
         font-size: 20px;
         line-height: 24px;
@@ -70,26 +50,16 @@ a {
         color: #2E2520;
     }
 
-    .registration-form {    
-        align-items: baseline;
-        padding: 30px;
-        width: 290px;
-        height: 150px;
-    }
-
     .registration-form-title {
-        font-family: Montserrat;
-        font-style: normal;
+        margin-bottom: 15px;
         font-weight: normal;
         font-size: 18px;
         line-height: 1.22;
         color: #2E2520;
     }
 
-    .registration-links {
+    .registration-field {
         display: block;
-        font-family: Montserrat;
-        font-style: normal;
         font-weight: normal;
         font-size: 16px;
         line-height: 1.25;
@@ -98,25 +68,37 @@ a {
         color: rgba(171, 129, 108, 0.5);
     }
 
-    .registration-links:not(:last-child) {
-    margin-bottom: 15px;
-}
+    .registration-field:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    .registration-field input {
+        border: none;
+    }
+
+    .registration-field input::placeholder {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.25;
+        color: rgba(171, 129, 108, 0.5);
+        }
 
     .registration-button {
         padding: 10px 45px;
         min-width: 160px;
-        font-family: Caveat Brush;
-        font-style: normal;
+        font-family: var(--secondary-font);
         font-weight: normal;
         font-size: 24px;
         text-align: center;
         cursor: pointer;
         color: #FFFFFF;
-        background: #AB816C;
+        background-color: #AB816C;
         border-radius: 25px;
+        margin-left: 38px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .registration-button:hover,
     .registration-button:focus {
-        background: #674D40;
+        background-color: #674D40;
     }
