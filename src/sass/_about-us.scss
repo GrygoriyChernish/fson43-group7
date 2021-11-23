@@ -1,47 +1,32 @@
-:root{
-    --primery-background-color: #E5E5E5;
-    --header-color: #2E2520;
-    --primery-text-color: #AB816C;
-}
-
-h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
-    padding: 0;
-}
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-img{
-    display: block;
-}
-.box-about-us{
+.box__aboutUs {
     width: 330px;
     height: 352px;
     margin-right: 40px;
-    background-image: url(../img/about-us/9.jpg), url(../img/about-us/Free\ Cupcake\ Box\ Mockup.jpg);
+    background-image: url(../img/about-us/9.png), url(../img/about-us/сupcake.jpg);
     background-repeat: no-repeat;
-    background-position: top 250px right 170px, top 0px left 0px, center, 0px 0px,
-    center;
+    background-position: top 250px right 170px, top 0px left 0px, center, 0px 0px, center;
     background-color: transparent;
 }
-.about-us{
+
+.section__aboutUs {
     display: flex;
     width: 690px;
     height: 456px;
 }
-.about-us-item{
+
+.about-us-item {
     margin-right: 30px;
 }
-.title-about-us{
+
+.title__aboutUs {
     margin-bottom: 10px;
     font-family: Caveat Brush;
     font-size: 24px;
     line-height: 2.70;
     color: var(--header-color);
 }
-.text-about-us{
+
+.text__aboutUs {
     width: 336px;
     font-family: Montserrat;
     font-size: 16px;
@@ -49,14 +34,17 @@ img{
     letter-spacing: 0.03em;
     color: var(--header-color);
 }
-.text-about-us:not(:last-child){
+
+.text__aboutUs:not(:last-child) {
     padding-bottom: 10px;
 }
-.conteiner-about-us{
+
+.conteiner__aboutUs {
     display: flex;
     align-items: center;
 }
-.button-about-us{
+
+.button__aboutUs {
     background-color: transparent;
     border: transparent;
     font-family: Caveat Brush;
@@ -66,5 +54,3 @@ img{
     cursor: pointer;
     text-align: center;
 }
-
-

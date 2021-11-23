@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+.box__aboutUs {
+  width: 330px;
+  height: 352px;
+  margin-right: 40px;
+  background-image: url(../img/about-us/9.png), url(../img/about-us/сupcake.jpg);
+  background-repeat: no-repeat;
+  background-position: top 250px right 170px, top 0px left 0px, center, 0px 0px, center;
+  background-color: transparent;
+}
+
+.section__aboutUs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 690px;
+  height: 456px;
+}
+
+.about-us-item {
+  margin-right: 30px;
+}
+
+.title__aboutUs {
+  margin-bottom: 10px;
+  font-family: Caveat Brush;
+  font-size: 24px;
+  line-height: 2.70;
+  color: var(--header-color);
+}
+
+.text__aboutUs {
+  width: 336px;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+
+.text__aboutUs:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+.conteiner__aboutUs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button__aboutUs {
+  background-color: transparent;
+  border: transparent;
+  font-family: Caveat Brush;
+  font-size: 18px;
+  line-height: 3.61;
+  color: var(--primery-text-color);
+  cursor: pointer;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
