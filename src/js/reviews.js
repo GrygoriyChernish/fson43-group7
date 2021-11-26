@@ -27,7 +27,6 @@ $(document).ready(function () {
 				}
 			}
 		]
-		
 	});
 	$(".slider").on("init", function(event, slick){
     $(".count").text(parseInt(slick.currentSlide + 1) + ' / ' + slick.slideCount);
