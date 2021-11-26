@@ -1,4 +1,8 @@
-$(document).ready(function(){
+
+  window.jQuery = window.$ = require('jquery');
+  require('../js/slick.min');
+
+$(document).ready(function () {
 	$('.slider').slick({
 		arrows:false,
 		dots:false,
