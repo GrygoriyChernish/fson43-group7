@@ -1,70 +1,58 @@
-:root{
-    --primery-background-color: #E5E5E5;
-    --header-color: #2E2520;
-    --primery-text-color: #AB816C;
+.conteiner-about-us {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-bottom: 40px;
+  margin-top: 150px;
 }
 
-h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
-    padding: 0;
-}
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-img{
-    display: block;
-}
-.box-about-us{
-    width: 330px;
-    height: 352px;
-    margin-right: 40px;
-    background-image: url(../images/about-us/9.jpg), url(../images/about-us/cupcake.jpg);
-    background-repeat: no-repeat;
-    background-position: top 250px right 170px, top 0px left 0px, center, 0px 0px,
-    center;
-    background-color: transparent;
-}
-.about-us{
-    display: flex;
-    width: 690px;
-    height: 456px;
-}
-.about-us-item{
-    margin-right: 30px;
-}
-.title-about-us{
-    margin-bottom: 10px;
-    font-family: Caveat Brush;
-    font-size: 24px;
-    line-height: 2.70;
-    color: var(--header-color);
-}
-.text-about-us{
-    width: 336px;
-    font-family: Montserrat;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    color: var(--header-color);
-}
-.text-about-us:not(:last-child){
-    padding-bottom: 10px;
-}
-.conteiner-about-us{
-    display: flex;
-    align-items: center;
-}
-.button-about-us{
-    background-color: transparent;
-    border: transparent;
-    font-family: Caveat Brush;
-    font-size: 18px;
-    line-height: 3.61;
-    color: var(--primery-text-color);
-    cursor: pointer;
-    text-align: center;
+.box-about-us {
+  position: absolute;
+  top: -95px;
+  left: -145px;
+  width: 512px;
+  height: 547px;
+  margin-right: 40px;
+  background-image: url(../images/about-us/cupcake9.jpg);
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
+.about-us-right {
+  margin-left: 440px;
+}
 
+.about-us {
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.03em;
+}
+.about-us-item {
+  margin-right: 30px;
+}
+.title-about-us {
+  margin-bottom: 10px;
+  font-family: Caveat Brush;
+  font-size: 24px;
+  line-height: 2.7;
+  color: var(--header-color);
+}
+.text-about-us {
+  width: 392px;
+  color: var(--header-color);
+}
+.text-about-us:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+.button-about-us {
+  background-color: transparent;
+  border: transparent;
+  font-family: Caveat Brush;
+  font-size: 18px;
+  line-height: 3.61;
+  color: var(--primery-text-color);
+  cursor: pointer;
+  text-align: center;
+}
