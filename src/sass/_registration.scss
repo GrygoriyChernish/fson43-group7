@@ -1,0 +1,104 @@
+
+.registration-section {
+    background-image: url(../images/registration/donut.png),
+    url(../images/registration/kiss-party.png);
+    background-size: 350px,
+    600px;
+    background-position: 10% 50%, 98% -55%;
+    background-repeat: no-repeat;
+    background-color: #FEF3E4;
+    padding-top: 70px;
+    padding-left: 70px;
+}
+
+.registration-title {
+    margin-bottom: 10px;
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 1.81;
+    text-align: center;
+    color: var(--primary-text-color);
+    }
+
+.registration-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    background: #FFFFF9;
+    box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15),
+    4px 4px 4px rgba(171, 129, 108, 0.15);
+    border-radius: 150px;
+    }
+
+    .registration-articles {
+        padding: 30px;
+        margin-right: 30px;
+        width: 200px;
+        height: 200px;
+        border-right: 1px solid rgba(171, 129, 108, 0.5);
+    }
+
+    .registration-text {
+        margin-bottom: 35px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: right;
+        color: #2E2520;
+    }
+
+    .registration-form-title {
+        margin-bottom: 15px;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 1.22;
+        color: #2E2520;
+    }
+
+    .registration-field {
+        display: block;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.25;
+        text-align: justify;
+        border-bottom: 1px solid #AB816C;
+        color: rgba(171, 129, 108, 0.5);
+    }
+
+    .registration-field:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    .registration-field input {
+        border: none;
+    }
+
+    .registration-field input::placeholder {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.25;
+        color: rgba(171, 129, 108, 0.5);
+        }
+
+    .registration-button {
+        padding: 10px 45px;
+        min-width: 160px;
+        font-family: var(--secondary-font);
+        font-weight: normal;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        color: #FFFFFF;
+        background-color: #AB816C;
+        border-radius: 25px;
+        margin-left: 38px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .registration-button:hover,
+    .registration-button:focus {
+        background-color: #674D40;
+    }

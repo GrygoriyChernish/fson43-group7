@@ -1,0 +1,56 @@
+header {
+  display: flex;
+  height: 130px;
+  background-color: #fef3e4;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.nav-link-logo {
+  display: block;
+  margin-right: 38px;
+  // padding-top: 25px;
+}
+
+.nav-link {
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.22;
+  color: var(--primary-text-color);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  &:hover,
+  &:focus {
+    color: var(--primary-accent-color);
+  }
+
+  &:visited {
+    color: var(--secondary-accent-color);
+  }
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
